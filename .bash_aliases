@@ -16,9 +16,10 @@ function gco(){
  else
   git commit -a -m "$1"
  fi
- git push -u origin master
+ git push -u origin main
 }
-alias gdf='git diff remotes/origin/master'
+alias gdf='git diff remotes/origin/main'
+alias php='php -d display_errors=on -d error_reporting=E_ALL'
 
 if [ -d $HOME/.local ]; then
  export PATH=$HOME/.local/bin:$PATH

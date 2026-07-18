@@ -1,3 +1,4 @@
+umask 0022
 export LANG=ja_JP.UTF-8
 export HISTSIZE=1000
 export SAVEHIST=1000000
